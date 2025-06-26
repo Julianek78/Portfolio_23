@@ -1,0 +1,802 @@
+
+body
+{
+  background-color: #001221;  
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+
+
+
+
+/*_______________________________________________________________________________________________________________________________________
+
+-------------------------------------------------------Media na Komputer-----------------------------------------------------------------
+________________________________________________________________________________________________________________________________________*/
+
+
+
+
+
+@media (min-width: 1024px){
+
+h1
+{
+  font-size: 13vh;
+  margin: 0%;
+  text-align: center;
+}
+
+h2
+{
+  font-size: 7vh;
+}
+
+h3 
+{
+  font-size: 4vh;
+}
+
+h4
+{
+  font-size: 2.7vh;
+}
+
+p
+{
+  font-size: 2vh;
+}
+
+li
+{
+  font-size: 4vh;
+}
+
+ol
+{
+  padding-left: 8%;
+}
+
+ul
+{
+  padding-left: 8%;
+}
+
+a
+{
+  color: #001221;
+  text-decoration: underline 0.1.8vh;
+  text-underline-offset: 0.33vh;
+}
+
+a:hover
+{
+  color: #001221;
+  text-decoration: underline 0.26vh;
+  text-underline-offset: 0.4vh;
+}
+
+
+
+/*-------------------------------------------------Strona Główna "PORTFOLIO"-----------------------------------------------------------*/
+
+
+
+#Wstęp
+{
+  background-color: #ffffff; 
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  height: 50vh;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+
+}
+
+#Wstęp::before 
+{
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1; 
+}
+
+.strzałka
+{
+  margin-left: 44vw; 
+  margin-top: 8vh ; 
+  width: 10vw;
+}
+
+#Góra
+{
+  background-color: #ffffff;
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  height: 80vh;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  padding: 2%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#Góra::before 
+{
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+
+#Miniaturki
+{
+  background-color: #ffffff;
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  height: 90vh;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18vw, 1fr));
+  gap: 0.6vw;
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+#Miniaturki::before 
+{
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+img
+{
+  width: 18vw;
+  border-radius: 6%;
+}
+
+.stopka
+{
+  text-align: center;
+  background-color: #001230;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Caveat";
+  color: #ffffff;
+  margin-top: 20vh;
+  height: 32vh;
+}
+
+.Konkrety
+{
+  background-color: #001230;
+  font-family: "Caveat";
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  text-align: left;
+}
+
+.Konkrety a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Konkrety a:hover
+{
+  color: #deffff;
+  text-decoration: underline;
+}
+
+
+
+/*-------------------------------------------------Podstrona "MOJE PRACE"-----------------------------------------------------------*/
+
+
+
+#Open
+{
+  background-color: #ffffff; 
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  height: 50vh;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  position: relative;
+  box-sizing: border-box;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+}
+
+#Open::before 
+{
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1; 
+}
+
+#Obrazki
+{
+  background-color: #ffffff;
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  height: 96vh;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-top: 3%;
+  position: relative;
+}
+
+#Obrazki::before 
+{
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+#tytuł
+{
+  background-color: #ffffff; 
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  height: 8vh
+}
+#Graficzki
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18vw, 1fr));
+  gap: 0.6vw;
+  box-sizing: border-box;
+  padding-top: 3%;
+}
+
+
+
+/*-----------------------------------------------------Podstrona "SZCZEGÓŁY"----------------------------------------------------------*/
+
+
+
+#Wejście,
+#Wymagania,
+#paying,
+#Kontakciki {
+  background-color: #ffffff;
+  color: #001221;
+  font-family: "Caveat", cursive;
+  text-align: left;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  position: relative;
+  box-sizing: border-box;
+  padding: 4vh 4vw; /* Dodany padding wewnętrzny */
+}
+
+#Wejście::before,
+#Wymagania::before,
+#paying::before,
+#Kontakciki::before {
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909;
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+#Kontakciki a
+{
+  text-underline-offset: 0.6vh;
+}
+
+#Kontakciki a:hover
+{
+  text-underline-offset: 0.66vh;
+}
+
+
+
+/*-----------------------------------------------------Podstrona "KONTAKTY"----------------------------------------------------------*/
+
+
+
+#czaty
+{
+  background-color: #ffffff;
+  color: #001221;
+  font-family: "Caveat", cursive;
+  text-align: left;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 14vh;
+  position: relative;
+  box-sizing: border-box;
+  padding: 4vh 4vw
+}
+
+#czaty::before 
+{
+  content: "";
+  position: absolute;
+  top: -4vh;
+  right: -4vh;
+  left: 4vh;
+  bottom: 4vh;
+  background-color: #e6a909;
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+}
+
+
+
+
+
+/*_______________________________________________________________________________________________________________________________________
+
+-------------------------------------------------------Media na Telefon------------------------------------------------------------------
+_______________________________________________________________________________________________________________________________________*/
+
+
+
+
+
+@media (max-width: 1024px){
+
+body
+{
+padding-bottom: 24vh
+}
+
+h1
+{
+  font-size: 6vh;
+  margin: 0%;
+  text-align: center;
+}
+
+h2
+{
+  font-size: 4vh;
+}
+
+h3 
+{
+  font-size: 2vh;
+}
+
+h4
+{
+  font-size: 1.8vh;
+}
+
+p
+{
+  font-size: 1.2vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+li
+{
+  font-size: 2vh;
+}
+
+ol
+{
+  padding-left: 4%;
+}
+
+ul
+{
+  padding-left: 4%;
+}
+
+/*----------------------------------------------------Strona Główna "PORTFOLIO"--------------------------------------------------------*/
+
+#Wstęp
+{
+  background-color: #ffffff; 
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  padding: 4%;
+}
+
+#Wstęp::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1; 
+}
+
+.strzałka
+{
+  margin-left: 41vw; 
+  margin-top: 4vh ; 
+  width: 18vw;
+}
+
+#Góra 
+{
+  background-color: #ffffff;
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  padding: 2%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#Góra::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+#Miniaturki
+{
+  background-color: #ffffff;
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 10vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36vw, 1fr));
+  gap: 2vh;
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+#Miniaturki::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+img
+{
+  width: 36vw;
+  border-radius: 6%;
+}
+
+.stopka {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 16vh;
+  background-color: #001230;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "Caveat";
+  color: #ffffff;
+  z-index: 1000;
+  padding-bottom: 1vh;
+}
+
+
+.Konkrety
+{
+  background-color: #001230;
+  font-family: "Caveat";
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  margin: 4vw;
+  text-align: left;
+  flex: 1;
+  max-height: 14vh;
+  min-height: 14vh;
+  margin-left: 3vw;
+}
+
+.Konkrety a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Konkrety a:hover
+{
+  color: #deffff;
+  text-decoration: underline;
+}
+
+
+
+/*-----------------------------------------------------Podstrona "MOJE PRACE"----------------------------------------------------------*/
+
+
+
+#Open
+{
+  background-color: #ffffff; 
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw; 
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  position: relative;
+  box-sizing: border-box;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  padding: 4%;    
+}
+
+#Open::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1; 
+}
+
+#Obrazki
+{
+  background-color: #ffffff;
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  box-sizing: border-box;
+  padding: 3%;
+  position: relative;
+}
+
+#Obrazki::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909; 
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+#tytuł
+{
+  background-color: #ffffff; 
+  color: #001221;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  height: 8vh
+}
+#Graficzki
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36vw, 1fr));
+  gap: 2vw;
+  box-sizing: border-box;
+}
+
+
+
+/*-----------------------------------------------------Podstrona "SZCZEGÓŁY"-----------------------------------------------------------*/
+
+
+
+#Wejście,
+#Wymagania,
+#paying,
+#Kontakciki 
+{
+  background-color: #ffffff;
+  color: #001221;
+  font-family: "Caveat", cursive;
+  text-align: left;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 8vh;
+  position: relative;
+  box-sizing: border-box;
+  padding: 4%;
+}
+
+#Wejście h2 
+{
+  font-size: 3.2vh;
+}
+
+#Wejście::before,
+#Wymagania::before,
+#paying::before,
+#Kontakciki::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909;
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+#Kontakciki a
+{
+  text-underline-offset: 0.6vh;
+  color:#001221
+}
+
+#Kontakciki a:hover
+{
+  text-underline-offset: 0.76vh;
+  color: #001221;
+}
+
+
+
+/*-----------------------------------------------------Podstrona "KONTAKTY"------------------------------------------------------------*/
+
+
+
+#czaty
+{
+  background-color: #ffffff;
+  color: #001221;
+  font-family: "Caveat", cursive;
+  text-align: left;
+  width: 85vw;
+  border-radius: 2vh;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  position: relative;
+  box-sizing: border-box;
+  padding: 4%;
+}
+
+#czaty::before 
+{
+  content: "";
+  position: absolute;
+  top: -2.5vh;
+  right: -2.5vh;
+  left: 2.5vh;
+  bottom: 2.5vh;
+  background-color: #e6a909;
+  border-radius: 2vh;
+  z-index: -1;
+}
+
+#czaty a
+{
+  color: #001221;
+  text-decoration: none;
+}
+
+#czaty a:hover
+{
+  color: #001221;
+  text-decoration: underline;
+} 
+
+
+}
