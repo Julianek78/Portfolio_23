@@ -36,7 +36,7 @@ h2
 
 h3 
 {
-  font-size: 4vh;
+  font-size: 3.6vh;
 }
 
 h4
@@ -89,7 +89,7 @@ a:hover
   background-color: #ffffff; 
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   height: 50vh;
   border-radius: 2vh;
@@ -129,7 +129,7 @@ a:hover
   background-color: #ffffff;
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   height: 80vh;
   border-radius: 2vh;
@@ -159,7 +159,7 @@ a:hover
   background-color: #ffffff;
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   height: 90vh;
   border-radius: 2vh;
@@ -199,7 +199,7 @@ img
   background-color: #001230;
   display: flex;
   justify-content: space-around;
-  font-family: "Caveat";
+  font-family: "Patrick Hand";
   color: #ffffff;
   margin-top: 20vh;
   height: 32vh;
@@ -208,7 +208,7 @@ img
 .Konkrety
 {
   background-color: #001230;
-  font-family: "Caveat";
+  font-family: "Patrick Hand";
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -239,7 +239,7 @@ img
   background-color: #ffffff; 
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   height: 50vh;
   border-radius: 2vh;
@@ -271,7 +271,7 @@ img
   background-color: #ffffff;
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   height: 96vh;
   border-radius: 2vh;
@@ -301,7 +301,7 @@ img
   background-color: #ffffff; 
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   height: 8vh
 }
 #Graficzki
@@ -325,7 +325,7 @@ img
 #Kontakciki {
   background-color: #ffffff;
   color: #001221;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   text-align: left;
   width: 85vw;
   border-radius: 2vh;
@@ -371,7 +371,7 @@ img
 {
   background-color: #ffffff;
   color: #001221;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   text-align: left;
   width: 85vw;
   border-radius: 2vh;
@@ -468,7 +468,7 @@ ul
   background-color: #ffffff; 
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   border-radius: 2vh;
   margin-left: 6vw;
@@ -507,7 +507,7 @@ ul
   background-color: #ffffff;
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   border-radius: 2vh;
   margin-left: 6vw;
@@ -535,7 +535,7 @@ ul
   background-color: #ffffff;
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   border-radius: 2vh;
   margin-left: 6vw;
@@ -578,7 +578,7 @@ img
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  font-family: "Caveat";
+  font-family: "Patrick Hand";
   color: #ffffff;
   z-index: 1000;
   padding-bottom: 1vh;
@@ -588,7 +588,7 @@ img
 .Konkrety
 {
   background-color: #001230;
-  font-family: "Caveat";
+  font-family: "Patrick Hand";
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -624,7 +624,7 @@ img
   background-color: #ffffff; 
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw; 
   border-radius: 2vh;
   margin-left: 6vw;
@@ -656,7 +656,7 @@ img
   background-color: #ffffff;
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   width: 85vw;
   border-radius: 2vh;
   margin-left: 6vw;
@@ -684,7 +684,7 @@ img
   background-color: #ffffff; 
   color: #001221;
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   height: 8vh
 }
 #Graficzki
@@ -708,7 +708,7 @@ img
 {
   background-color: #ffffff;
   color: #001221;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   text-align: left;
   width: 85vw;
   border-radius: 2vh;
@@ -762,7 +762,7 @@ img
 {
   background-color: #ffffff;
   color: #001221;
-  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive;
   text-align: left;
   width: 85vw;
   border-radius: 2vh;
